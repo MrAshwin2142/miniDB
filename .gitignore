@@ -1,0 +1,39 @@
+# Build output
+/build/
+build/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.a
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Runtime data directory created by the engine
+/data/
+data/
+demo_data/
+test_data/
+
+# Scratch build dir used during development
+_gccbuild/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# GUID
+guid.md
